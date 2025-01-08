@@ -59,7 +59,7 @@ while True:
     cv2.putText(resized_frame, timestamp, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
     
     # 프레임 표시
-    cv2.imshow('jongsun.yu@gmail.com', resized_frame)
+    cv2.imshow('ESP32_CAM', resized_frame)
     
     # 현재 시간
     current_time = time.time()
